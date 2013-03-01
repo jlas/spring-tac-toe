@@ -118,7 +118,7 @@ $(function($) {
 				success: function(model, response, options) {
 					clearTimeout(TIMEOUTID);
 					gameBoard.render(id);
-					TIMEOUTID = setTimeout(refresh, 5000);
+					TIMEOUTID = setTimeout(refresh, 2000);
 				}
 			});
 		}
