@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Sintony);
+
+html { 	height: 635px; }
+
+body {
+	width: 1000px;
+	margin: auto;
+	font-family: 'Sintony', sans-serif;
+	font-size: 2em;
+	background-image: url("/static/subtle_grunge.png"); 
+	border: 0;
+	padding: 0;
+}
+
+a {
+ 	color: darkred;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#boardlist {
+	width: 33%;
+	position: absolute;
+}
+
+#boardmat {
+	background-image: url("/static/retina_wood.png");
+	position: absolute;
+	width: 300px;
+	height: 360px;
+	left: 34%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	text-shadow: 1px 1px 1px grey;
+}
+
+table {
+	width: 250px;
+	height: 310px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	border-collapse: collapse;
+}
+
+td {
+	width: 84px;
+	height: 104px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+}
+
+tr:nth-child(1) > td, tr:nth-child(2) > td {
+	border-bottom: 1px solid black;
+}
+
+td:nth-child(1), td:nth-child(2) {
+	border-right: 1px solid black;
+}
+
+button {
+	position: absolute;
+	left: 34%;
+}
+
+#choice {
+	position: relative;
+	top: 300px;
+}
+
+#choice > input {
+	position: relative;
+	top: -7px;
+}
